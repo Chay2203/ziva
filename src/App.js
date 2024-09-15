@@ -42,7 +42,7 @@ return (
   
 <span className="text-white">
     {text}
-    <span className={`${showCursor ? 'opacity-100 text-purple-400' : 'opacity-0'} transition-opacity duration-100`}> | </span>
+    <span className={`${showCursor ? 'opacity-100 text-purple-400' : 'opacity-0'} transition-opacity duration-100`}>|</span>
   </span>  
   );
 };
@@ -72,7 +72,7 @@ return (
           Fly through your inbox and get back to doing great
         </p>
         <p className="text-3xl mb-8 -mt-7 tracking-little-tight font-light">
-          work with a little help from AI.
+          work with a little help from <strong className="font-bold">AI</strong>.
         </p>
         <p className="text-xl mb-12 tracking-little-tight">
           ziva gives an <span className="bg-purple-500 text-white px-1">hour, everyday, for what matters most</span>.
