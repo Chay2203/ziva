@@ -9,7 +9,7 @@ module.exports = {
         helvetica: ['"Helvetica Now"', 'sans-serif'],
       },
       letterSpacing: {
-        'extra-tight': '-0.1em',
+        'extra-tight': '-0.09em',
         'little-tight': '-0.05em',
       },
       lineHeight: {
