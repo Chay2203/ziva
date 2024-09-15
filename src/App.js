@@ -63,7 +63,7 @@ return (
         </button>
       </header>
       <main className="flex-grow flex flex-col items-center justify-center text-center font-helvetica ">
-      <h1 className="-mt-36 md:mt-0 text-4xl md:text-7xl mb-4 leading-tight">
+      <h1 className="-mt-36 md:mt-0 text-4xl md:text-7xl leading-tight">
         <span className="text-white tracking-extra-tight">
           <span className="text-purple-400 px-1">❝</span>smarter 
           <span className="text-purple-400 px-1">❞</span>
@@ -73,14 +73,14 @@ return (
           email for <span className="font-bold"> <TypewriterEffect names={workNames} /></span>
         </span>
       </h1>
-      <p className="text-xl md:text-3xl mb-8 tracking-little-tight pt-10 pb-5 font-light">
+      <p className="text-xl md:text-3xl tracking-little-tight pt-5 pb-10 md:pt-3 pb-5 font-light">
         Fly through your inbox and get back to
-        <span className="block md:inline -mt-8"> 
-          <br className="md:hidden" /> 
+        <span className="block md:inline -mt-8">
+          <br className="md:hidden" />
           doing great work
         </span>
       </p>
-        <p className="hidden md:block text-3xl mb-8 -mt-7 tracking-little-tight font-light">
+        <p className="hidden md:block text-3xl mb-8 -mt-9 tracking-little-tight font-light">
           with a little help from <strong className="font-bold">AI</strong>.
         </p>
         <p className="hidden md:block text-xl mb-12 tracking-little-tight">
@@ -92,7 +92,6 @@ return (
         >
           Join waitlist
         </button>
-
       </main>
       <footer className="flex justify-center">
         <img 
