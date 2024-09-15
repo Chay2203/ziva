@@ -63,18 +63,27 @@ return (
         </button>
       </header>
       <main className="flex-grow flex flex-col items-center justify-center text-center font-helvetica ">
-        <h1 className="text-5xl md:text-7xl  mb-4 leading-tight">
-          <span className="text-white tracking-extra-tight"><span className="text-purple-400 px-1">❝ </span>smarter<span className="text-purple-400 px-1"> ❞</span></span>
-          <br />
-          <span className="text-purple-400 text-9xl tracking-extra-tight">email for <span className="font-bold"> <TypewriterEffect names={workNames} /></span></span>
-        </h1>
-        <p className="text-3xl mb-8 tracking-little-tight font-light">
-          Fly through your inbox and get back to doing great
+      <h1 className="-mt-24 md:mt-0 text-4xl md:text-7xl mb-4 leading-tight">
+        <span className="text-white tracking-extra-tight">
+          <span className="text-purple-400 px-1">❝</span>smarter 
+          <span className="text-purple-400 px-1">❞</span>
+        </span>
+        <br />
+        <span className="text-purple-400 text-8xl md:text-9xl tracking-extra-tight">
+          email for <span className="font-bold"> <TypewriterEffect names={workNames} /></span>
+        </span>
+      </h1>
+      <p className="text-2xl md:text-3xl mb-8 tracking-little-tight font-light">
+        Fly through your inbox and get back to
+        <span className="block md:inline -mt-8"> 
+          <br className="md:hidden" /> 
+          doing great work
+        </span>
+      </p>
+        <p className="hidden md:block text-3xl mb-8 -mt-7 tracking-little-tight font-light">
+          with a little help from <strong className="font-bold">AI</strong>.
         </p>
-        <p className="text-3xl mb-8 -mt-7 tracking-little-tight font-light">
-          work with a little help from <strong className="font-bold">AI</strong>.
-        </p>
-        <p className="text-xl mb-12 tracking-little-tight">
+        <p className="hidden md:block text-xl mb-12 tracking-little-tight">
           ziva gives an <span className="bg-purple-500 text-white px-1">hour, everyday, for what matters most</span>.
         </p>
         <button
@@ -86,7 +95,11 @@ return (
 
       </main>
       <footer className="flex justify-center">
-        <img src="/brain.png" alt="ziva" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain" />
+        <img 
+          src="/brain.png" 
+          alt="ziva" 
+          className="hidden md:block w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain" 
+        />
       </footer>
     </div>
   );
