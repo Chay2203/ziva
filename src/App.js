@@ -63,7 +63,7 @@ return (
         </button>
       </header>
       <main className="flex-grow flex flex-col items-center justify-center text-center font-helvetica ">
-      <h1 className="-mt-24 md:mt-0 text-4xl md:text-7xl mb-4 leading-tight">
+      <h1 className="-mt-36 md:mt-0 text-4xl md:text-7xl mb-4 leading-tight">
         <span className="text-white tracking-extra-tight">
           <span className="text-purple-400 px-1">❝</span>smarter 
           <span className="text-purple-400 px-1">❞</span>
@@ -73,7 +73,7 @@ return (
           email for <span className="font-bold"> <TypewriterEffect names={workNames} /></span>
         </span>
       </h1>
-      <p className="text-2xl md:text-3xl mb-8 tracking-little-tight font-light">
+      <p className="text-xl md:text-3xl mb-8 tracking-little-tight pt-10 pb-5 font-light">
         Fly through your inbox and get back to
         <span className="block md:inline -mt-8"> 
           <br className="md:hidden" /> 
