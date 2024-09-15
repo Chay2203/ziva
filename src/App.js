@@ -80,7 +80,7 @@ return (
           doing great work
         </span>
       </p>
-        <p className="hidden md:block text-3xl mb-8 -mt-9 tracking-little-tight font-light">
+        <p className="hidden md:block text-3xl mb-8 -mt-4 tracking-little-tight font-light">
           with a little help from <strong className="font-bold">AI</strong>.
         </p>
         <p className="hidden md:block text-xl mb-12 tracking-little-tight">
