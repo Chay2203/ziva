@@ -63,10 +63,10 @@ return (
         </button>
       </header>
       <main className="flex-grow flex flex-col items-center justify-center text-center font-helvetica ">
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight">
+        <h1 className="text-5xl md:text-7xl  mb-4 leading-tight">
           <span className="text-white tracking-extra-tight"><span className="text-purple-400 px-1">❝ </span>smarter<span className="text-purple-400 px-1"> ❞</span></span>
           <br />
-          <span className="text-purple-400 text-9xl tracking-extra-tight">email for <TypewriterEffect names={workNames} /></span>
+          <span className="text-purple-400 text-9xl tracking-extra-tight">email for <span className="font-bold"> <TypewriterEffect names={workNames} /></span></span>
         </h1>
         <p className="text-3xl mb-8 tracking-little-tight font-light">
           Fly through your inbox and get back to doing great
