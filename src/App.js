@@ -74,8 +74,7 @@ return (
         </span>
       </h1>
       <p className="text-xl md:text-3xl tracking-little-tight pt-5 pb-10 md:pt-3 pb-5 font-light">
-        Fly through your inbox and get back to
-        <span className="block md:inline -mt-8">
+        Fly through your inbox and get back to <span className="block md:inline -mt-8">
           <br className="md:hidden" />
           doing great work
         </span>
