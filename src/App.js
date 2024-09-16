@@ -65,7 +65,7 @@ return (
       <main className="flex-grow flex flex-col items-center justify-center text-center font-helvetica ">
       <h1 className="-mt-36 md:mt-0 text-4xl md:text-7xl leading-tight">
         <span className="text-white tracking-extra-tight">
-          <span className="text-purple-400 px-1">❝</span>smarter 
+          <span className="text-purple-400 px-1 ">❝</span><span className="italic">smarter </span>
           <span className="text-purple-400 px-1">❞</span>
         </span>
         <br />
